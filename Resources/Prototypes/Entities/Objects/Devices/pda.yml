@@ -1071,6 +1071,21 @@
     - DoorBumpOpener
 
 - type: entity
+  parent: ClearPDA
+  id: SwatPDA
+  suffix: SWAT
+  components:
+  - type: Pda
+    id: SwatIDCard
+  - type: Tag #  Ignore Chameleon tags
+    tags:
+    - DoorBumpOpener
+  - type: CartridgeLoader
+    preinstalled:
+    - NotekeeperCartridge
+    - WantedListCartridge
+    
+- type: entity
   parent: [ BasePDA, BaseSyndicateContraband ]
   id: SyndiPDA
   name: syndicate PDA

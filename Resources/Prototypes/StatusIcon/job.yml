@@ -473,6 +473,14 @@
 
 - type: jobIcon
   parent: JobIcon
+  id: JobIconSwat
+  icon:
+    sprite: *icon-rsi
+    state: Swat
+  allowSelection: false
+
+- type: jobIcon
+  parent: JobIcon
   id: JobIconNoId
   icon:
     sprite: *icon-rsi

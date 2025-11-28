@@ -920,6 +920,27 @@
   - type: PresetIdCard
     job: Visitor
 
+- type: entity
+  parent: IDCardStandard
+  id: SwatIDCard
+  name: swat ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+    - state: stripe_top
+      color: "#134975"
+    - state: stripe_bottom
+      color: "#0d304d"
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: Swat
+  - type: IdCard
+    jobTitle: job-name-no-id
+    jobIcon: JobIconSwat
+  - type: Access
+    tags:
+    - Brig
 #Antags
 
 - type: entity
