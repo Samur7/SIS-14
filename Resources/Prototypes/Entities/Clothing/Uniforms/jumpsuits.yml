@@ -1368,13 +1368,23 @@
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
     
-    - type: entity
+- type: entity
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformJumpsuitSwat
-  name: operative jumpsuit
-  description: Uniform for elite syndicate operatives performing tactical operations in deep space.
+  name: swat jumpsuit
+  description: Uniform for elite nanotrasen operatives performing tactical operations.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/swat.rsi
-  - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/swat.rsi
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#00437C"
+        sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+      - state: overlay-inhand-left
+      right:
+      - state: inhand-right
+        color: "#00437C"
+        sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+      - state: overlay-inhand-right
