@@ -75,20 +75,18 @@
 - type: startingGear
   id: NanotrasenParamilitaryGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSec
+    jumpsuit: ClothingUniformJumpsuitSwat
     back: ClothingBackpackSecurity
-    shoes: ClothingShoesBootsCombatFilled
+    belt: ClothingBeltSecurity
+    shoes: ClothingShoesSwat
+    id: SwatPDA
     eyes: ClothingEyesGlassesSecurity
     head: ClothingHeadHelmetSwat
-    mask: ClothingMaskGasSwat
-    outerClothing: ClothingOuterArmorBasicSlim
-    ears: ClothingHeadsetSecurity
-    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterArmorBasic
+    pocket1: MagazinePistol
   storage:
     back:
     - BoxSurvivalSecurity
-    - Flash
-    - MagazinePistol
 
 - type: startingGear
   id: BoxingKangarooGear

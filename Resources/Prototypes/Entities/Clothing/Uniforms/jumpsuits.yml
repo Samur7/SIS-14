@@ -1372,7 +1372,7 @@
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformJumpsuitSwat
   name: swat jumpsuit
-  description: Uniform for elite nanotrasen operatives performing tactical operations.
+  description: A jumpsuit made of strong material, commonly used by paramilitary forces.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/swat.rsi

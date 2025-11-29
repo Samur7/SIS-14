@@ -936,7 +936,7 @@
       offset: *icon-offset
       state: Swat
   - type: IdCard
-    jobTitle: job-name-no-id
+    jobTitle: job-title-swat
     jobIcon: JobIconSwat
   - type: Access
     tags:

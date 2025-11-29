@@ -98,3 +98,24 @@
   - type: Cluwne
   - type: Speech
     speechVerb: Cluwne
+
+- type: entity
+  name: nanotrasen footsoldier
+  parent: BaseMobHuman
+  id: MobNanotrasenFootsoldier
+  components:
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
+    - type: AntagImmune
+    - type: NpcFactionMember
+      factions:
+        - NanoTrasen
+    - type: Loadout
+      prototypes:
+        - NanotrasenParamilitaryGear
+    - type: InputMover
+    - type: MobMover
+    - type: HTN
+      rootTask:
+        task: SimpleHumanoidHostileCompound

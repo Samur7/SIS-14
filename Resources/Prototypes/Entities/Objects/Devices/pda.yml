@@ -1073,7 +1073,7 @@
 - type: entity
   parent: ClearPDA
   id: SwatPDA
-  suffix: SWAT
+  suffix: Swat
   components:
   - type: Pda
     id: SwatIDCard
