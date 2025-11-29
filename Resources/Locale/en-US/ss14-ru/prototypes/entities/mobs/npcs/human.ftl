@@ -13,3 +13,6 @@ ent-SalvageHumanCorpse = unidentified corpse
     .suffix = Dead
 ent-MobCluwne = person
     .desc = A polymorphed unfortunate.
+ent-MobNanotrasenFootsoldier = nanotrasen footsoldier
+    .desc = { ent-BaseMobHuman.desc }
+    .suffix = Swat

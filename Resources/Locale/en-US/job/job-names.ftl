@@ -66,6 +66,7 @@ job-name-zombie = Zombie
 # Job titles
 job-title-visitor = Visitor
 job-title-cluwne = Cluwne
+job-title-swat = Swat
 job-title-universal = Universal
 
 # Role timers - Make these alphabetical or I cut you

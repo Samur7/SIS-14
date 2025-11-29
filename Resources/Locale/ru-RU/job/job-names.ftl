@@ -64,6 +64,7 @@ job-name-zombie = зомби
 # Job titles
 job-title-visitor = посетитель
 job-title-cluwne = клувень
+job-title-swat = спецназ
 job-title-universal = универсальная
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = атмосферный техник

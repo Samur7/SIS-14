@@ -13,3 +13,6 @@ ent-SalvageHumanCorpse = неопознанный труп
     .suffix = Мёртвый
 ent-MobCluwne = существо
     .desc = Полиморфированное несчастье.
+ent-MobNanotrasenFootsoldier = пехотинец Nanotrasen
+    .desc = { ent-BaseMobHuman.desc }
+    .suffix = Спецназ
