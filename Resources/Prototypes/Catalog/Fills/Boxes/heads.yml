@@ -137,8 +137,8 @@
   id: BoxHoSCircuitboards
   description: A Tote filled with HoS's Circuit boards.
   components:
+  
   - type: StorageFill
     contents:
       - id: SecurityTechFabCircuitboard
       - id: CargoRequestSecurityComputerCircuitboard
-      - id: BorgModuleDrozd #_SIS Sec borg module
