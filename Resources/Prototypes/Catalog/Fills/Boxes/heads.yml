@@ -141,3 +141,4 @@
     contents:
       - id: SecurityTechFabCircuitboard
       - id: CargoRequestSecurityComputerCircuitboard
+      - id: BorgModuleDrozd #_SIS Sec borg module
