@@ -11,16 +11,13 @@
             "name": "security"
         },
 		{
-            "name": "icon-disabler"
+            "name": "icon-drozd"
         },
 		{
-            "name": "icon-gun"
+            "name": "icon-security-adv"
         },
 		{
-            "name": "icon-laser"
-        },
-		{
-            "name": "icon-stun-baton"
+            "name": "icon-security"
         },
         {
             "name": "base-icon-inhand-left",
