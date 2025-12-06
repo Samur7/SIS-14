@@ -11,6 +11,9 @@ ent-BorgChassisJanitor = киборг-уборщик
     .desc = { ent-BorgChassisSelectable.desc }
 ent-BorgChassisMedical = киборг-доктор
     .desc = { ent-BorgChassisSelectable.desc }
+##_SIS sec borg
+ent-BorgChassisSecurity = киборг-охранник 
+    .desc = { ent-BorgChassisSelectable.desc }
 ent-BorgChassisService = киборг-официант
     .desc = { ent-BorgChassisSelectable.desc }
 ent-BorgChassisSyndicateAssault = штурмовой киборг Синдиката
