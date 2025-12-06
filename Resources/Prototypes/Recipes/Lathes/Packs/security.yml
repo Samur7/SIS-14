@@ -139,3 +139,10 @@
   recipes:
   - WeaponDisabler
   - WeaponDisablerSMG
+
+#_SIS security recipes
+
+- type: latheRecipePack
+  id: SecurityModules
+  recipes:
+  - BorgModuleAdvancedSecurity

@@ -218,6 +218,7 @@
   cost: 15000
   recipeUnlocks:
   - WeaponAdvancedLaser
+  - BorgModuleAdvancedSecurity #_SIS sec borg module
   - PortableRecharger
 
 - type: technology
