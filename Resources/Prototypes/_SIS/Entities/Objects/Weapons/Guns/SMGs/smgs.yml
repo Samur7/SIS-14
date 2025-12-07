@@ -1,7 +1,7 @@
 - type: entity
   name: Drozd ROW
   id: WeaponSubMachineGunDrozdROW
-  parent: [BaseItem, BaseSecurityContraband]
+  parent: [WeaponSubMachineGunC20rROW, BaseSecurityContraband]
   description: A burst-fire drozd submachine gun for use by cyborgs. Creates .35 caliber ammo on the fly from an internal ammo fabricator, which slowly self-charges.
   components:
   - type: Gun
@@ -11,9 +11,6 @@
     angleDecay: 16
     fireRate: 18
     burstFireRate: 18
-    selectedMode: Burst
-    availableModes:
-    - Burst
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
   - type: Sprite
@@ -23,18 +20,3 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-4
       map: ["enum.GunVisualLayers.Mag"]
-  - type: Item
-    size: Huge
-  - type: ContainerContainer
-    containers:
-      ballistic-ammo: !type:Container
-  - type: ProjectileBatteryAmmoProvider
-    proto: CartridgePistol
-    fireCost: 100
-  - type: Battery
-    maxCharge: 3000
-    startingCharge: 3000
-  - type: BatterySelfRecharger
-    autoRecharge: true
-    autoRechargeRate: 25
-  - type: AmmoCounter

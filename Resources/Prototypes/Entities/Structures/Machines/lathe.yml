@@ -387,7 +387,7 @@
     - SecurityAmmoStatic
     - SecurityWeaponsStatic
     dynamicPacks:
-    - SecurityModules #_SIS Secborg module
+    - SecurityModules # SIS-Security_Cyborg
     - SalvageSecurityBoards
     - SalvageSecurityWeapons
     - SecurityEquipment
