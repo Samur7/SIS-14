@@ -25,6 +25,20 @@
   - type: Tag
     tags:
       - SpreaderIgnore
+  - type: Damageable # SIS-FanTiny
+    damageContainer: StructuralInorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
 
 - type: entity
   id: AtmosDeviceFanDirectional
@@ -54,3 +68,17 @@
   - type: Tag
     tags:
       - SpreaderIgnore
+  - type: Damageable # SIS-FanDirectional
+    damageContainer: StructuralInorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
