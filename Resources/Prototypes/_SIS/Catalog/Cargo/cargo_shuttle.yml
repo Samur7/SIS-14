@@ -1,0 +1,9 @@
+- type: cargoProduct
+  id: FanTinyFlatpack
+  icon:
+    sprite: _SIS/Structures/Piping/Atmospherics/tinyfan.rsi
+    state: icon
+  product: CrateEngineeringFanTiny
+  cost: 1500
+  category: cargoproduct-category-name-shuttle
+  group: market
