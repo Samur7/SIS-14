@@ -1,5 +1,5 @@
 - type: entity
-  parent: CrateEngineering
+  parent: CrateEngineeringSecure
   id: CrateEngineeringFanTiny
   name: tiny fan crate
   description: Contains a tiny fan flatpack.
