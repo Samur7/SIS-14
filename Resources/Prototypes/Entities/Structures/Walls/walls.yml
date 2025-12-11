@@ -574,7 +574,7 @@
       behaviors:
         - !type:SpawnEntitiesBehavior
           spawn:
-            Girder:
+            DiagonalGirder: # SIS-DiagonalGirder
               min: 1
               max: 1
         - !type:DoActsBehavior
@@ -723,12 +723,15 @@
         damage: 300
       behaviors:
       - !type:ChangeConstructionNodeBehavior
-        node: girder
+        node: diagonalGirder #SIS-DiagonalGirder
       - !type:PlaySoundBehavior
         sound:
           collection: MetalSlam
       - !type:DoActsBehavior
         acts: ["Destruction"]
+  - type: Construction # SIS-DiagonalGirder
+    graph: DiagonalGirder
+    node: diagonalReinforcedWall
   - type: RadiationBlocker
     resistance: 5
 
@@ -890,14 +893,14 @@
         damage: 300
       behaviors:
       - !type:ChangeConstructionNodeBehavior
-        node: girder
+        node: diagonalGirder # SIS-DiagonalGirder
       - !type:PlaySoundBehavior
         sound:
           collection: MetalSlam
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: Construction
-    graph: Girder
+    graph: DiagonalGirder # SIS-DiagonalGirder
     node: diagonalshuttleWall
   - type: RadiationBlocker
     resistance: 5
@@ -1046,12 +1049,15 @@
         damage: 200
       behaviors:
       - !type:ChangeConstructionNodeBehavior
-        node: girder
+        node: diagonalGirder #SIS-DiagonalGirder
       - !type:PlaySoundBehavior
         sound:
           collection: MetalSlam
       - !type:DoActsBehavior
         acts: ["Destruction"]
+  - type: Construction # SIS-DiagonalGirder
+    graph: DiagonalGirder
+    node: diagonalSolidWall
 
 - type: entity
   parent: WallSolid
@@ -1443,7 +1449,7 @@
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
-          Girder:
+          DiagonalGirder: # SIS-DiagonalGirder
             min: 1
             max: 1
       - !type:PlaySoundBehavior
