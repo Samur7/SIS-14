@@ -729,9 +729,11 @@
           collection: MetalSlam
       - !type:DoActsBehavior
         acts: ["Destruction"]
-  - type: Construction # SIS-DiagonalGirder
+  # SIS-DiagonalGirder Start
+  - type: Construction
     graph: DiagonalGirder
     node: diagonalReinforcedWall
+  # SIS-DiagonalGirder End
   - type: RadiationBlocker
     resistance: 5
 
@@ -1055,9 +1057,11 @@
           collection: MetalSlam
       - !type:DoActsBehavior
         acts: ["Destruction"]
-  - type: Construction # SIS-DiagonalGirder
+  # SIS-DiagonalGirder Start
+  - type: Construction
     graph: DiagonalGirder
     node: diagonalSolidWall
+  # SIS-DiagonalGirder End
 
 - type: entity
   parent: WallSolid
