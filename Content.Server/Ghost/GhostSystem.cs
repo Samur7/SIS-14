@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2021-2025 Space Wizards Federation
+// SPDX-FileCopyrightText: 2025 SIS-14 contributors
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Linq;
 using System.Numerics;
 using Content.Server.Administration.Logs;
@@ -333,7 +338,8 @@ namespace Content.Server.Ghost
             if (_followerSystem.GetMostGhostFollowed() is not {} target)
                 return;
 
-            WarpTo(uid, target);
+            // If there is a ghostnado happening you almost definitely wanna join it, so we automatically follow instead of just warping.
+            _followerSystem.StartFollowingEntity(uid, target);
         }
 
         private void WarpTo(EntityUid uid, EntityUid target)
@@ -456,7 +462,7 @@ namespace Content.Server.Ghost
         }
 
         public EntityUid? SpawnGhost(Entity<MindComponent?> mind, EntityCoordinates? spawnPosition = null,
-            bool canReturn = false)
+            bool canReturn = false, bool isAdminGhost = false) // SIS-Auto_AGhost
         {
             if (!Resolve(mind, ref mind.Comp))
                 return null;
@@ -477,7 +483,14 @@ namespace Content.Server.Ghost
                 return null;
             }
 
-            var ghost = SpawnAtPosition(GameTicker.ObserverPrototypeName, spawnPosition.Value);
+            // SIS-Auto_AGhost Start
+            var ghost = SpawnAtPosition(
+                isAdminGhost
+                    ? GameTicker.AdminObserverPrototypeName
+                    : GameTicker.ObserverPrototypeName,
+                spawnPosition.Value);
+            // SIS-Auto_AGhost End
+
             var ghostComponent = Comp<GhostComponent>(ghost);
 
             // Try setting the ghost entity name to either the character name or the player name.

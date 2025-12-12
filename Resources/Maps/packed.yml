@@ -4,8 +4,8 @@ meta:
   engineVersion: 267.3.0
   forkId: ""
   forkVersion: ""
-  time: 11/04/2025 19:54:18
-  entityCount: 15917
+  time: 11/25/2025 05:14:16
+  entityCount: 15918
 maps:
 - 126
 grids:
@@ -43013,7 +43013,7 @@ entities:
       pos: 59.5,39.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -7963.466
+      secondsUntilStateChange: -7996.17
       state: Closing
 - proto: d6Dice
   entities:
@@ -48806,7 +48806,7 @@ entities:
       pos: 26.5,37.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -55257.25
+      secondsUntilStateChange: -55289.953
       state: Closing
   - uid: 9362
     components:
@@ -50472,6 +50472,13 @@ entities:
     components:
     - type: Transform
       pos: 49.5,-25.5
+      parent: 2
+- proto: GasMinerPlasma
+  entities:
+  - uid: 15785
+    components:
+    - type: Transform
+      pos: 49.5,-31.5
       parent: 2
 - proto: GasMinerWaterVapor
   entities:

@@ -1,9 +1,19 @@
-# Reporting a security vulnerability
-You can report a security vulnerability through Discord or through email.
+## Сообщить о нарушении / Report a Violation
 
-If you want to send an email, you can contact us at <support@spacestation14.com>.
-If you want to contact us through Discord, you can join [our server](https://discord.gg/MwDDf6t)
-and then **privately** message anyone with the `@Wizard` or `@SS14 Maintainer` role.
+**Русский:**
 
-In either case, **do not publicly disclose the vulnerability until we explicitly give
-you permission to do so**.
+Если вы обнаружили нарушение лицензионных условий проекта, свяжитесь с нами:
+
+- **Discord владельца репозитория:** @shegare (discord id: 479338527163678726)
+- **Discord канал жалоб:** [https://discord.gg/Exj53r4CWW](https://discord.gg/Exj53r4CWW)
+- **GitHub Issues:** [Создать issue](https://github.com/Shegare/SIS-14/issues/new)
+
+---
+
+**English:**
+
+If you discovered a licensing violation, please contact us:
+
+- **Discord of repository owner:** @shegare (discord id: 479338527163678726)
+- **Discord complaints channel:** [https://discord.gg/Exj53r4CWW](https://discord.gg/Exj53r4CWW)
+- **GitHub Issues:** [Create an issue](https://github.com/Shegare/SIS-14/issues/new)
