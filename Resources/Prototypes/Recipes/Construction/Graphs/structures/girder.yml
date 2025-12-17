@@ -283,6 +283,7 @@
               doAfter: 1
 
         # SIS-DiagonalGirder Start
+        #
         # - to: diagonalshuttleWall
         #   conditions:
         #     - !type:EntityAnchored { }
@@ -295,6 +296,7 @@
         #     - material: Plasteel
         #       amount: 1
         #       doAfter: 1
+        #
         # SIS-DiagonalGirder End
 
         - to: girder
@@ -471,7 +473,8 @@
             - tool: Cutting
               doAfter: 4
     # SIS-DiagonalGirder Start
-    # - node: diagonalshuttleWall 
+    #
+    # - node: diagonalshuttleWall
     #   entity: WallShuttleDiagonal
     #   edges:
     #     - to: reinforcedGirder
@@ -504,6 +507,7 @@
     #           doAfter: 1
     #         - tool: Cutting
     #           doAfter: 1
+    #
     # SIS-DiagonalGirder End
 
     - node: wallrust
