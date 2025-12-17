@@ -25,7 +25,7 @@
   - type: Tag
     tags:
       - SpreaderIgnore
-# SIS-Fan_Damageable Start
+  # SIS-Fan_Damageable Start
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Metallic
@@ -40,7 +40,7 @@
       - !type:PlaySoundBehavior
         sound:
           collection: MetalSlam
-# SIS-Fan_Damageable End
+  # SIS-Fan_Damageable End
 
 - type: entity
   id: AtmosDeviceFanDirectional
