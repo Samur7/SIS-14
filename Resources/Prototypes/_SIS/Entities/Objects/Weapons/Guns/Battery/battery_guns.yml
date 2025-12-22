@@ -6,3 +6,46 @@
   components:
   - type: PredictedBatterySelfRecharger
     autoRechargeRate: 6
+
+- type: entity
+  name: ion rifle
+  parent: [BaseWeaponBattery, BaseGunWieldable, BaseCentcommContraband]
+  id: WeaponIonRifle
+  description: High tech energy weapon designed to wreak havoc on electronic systems.
+  components:
+  - type: Sprite
+    sprite: _SIS/Objects/Weapons/Guns/Battery/ion.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-unshaded-4
+        map: ["enum.GunVisualLayers.MagUnshaded"]
+        shader: unshaded
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Clothing
+    sprite: _SIS/Objects/Weapons/Guns/Battery/ion.rsi
+  - type: Appearance
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,3,1
+  - type: Gun
+    fireRate: 0.5
+    soundGunshot:
+      path: /Audio/_SIS/Weapons/Guns/Gunshots/ionrifle.ogg
+  - type: BatteryAmmoProvider
+    proto: BoltEmp
+    fireCost: 200
+  - type: PredictedBattery
+    maxCharge: 1000
+    startingCharge: 1000
+  - type: CursorOffsetRequiresWield
+  - type: EyeCursorOffset
+    maxOffset: 2
+    pvsIncrease: 0.2
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.75
+    sprintModifier: 0.75
