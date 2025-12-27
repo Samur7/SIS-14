@@ -15,9 +15,9 @@
         shape:
           !type:PolygonShape
             vertices:
-            - "-0.45,-0.45"
-            - "0.45,0.45"
-            - "0.45,-0.45"
+            - "-0.5,-0.5"
+            - "0.5,0.5"
+            - "0.5,-0.5"
         density: 60
         mask:
         - MachineMask
@@ -46,9 +46,9 @@
         shape:
           !type:PolygonShape
             vertices:
-            - "-0.45,-0.45"
-            - "0.45,0.45"
-            - "0.45,-0.45"
+            - "-0.5,-0.5"
+            - "0.5,0.5"
+            - "0.5,-0.5"
         density: 60
         mask:
         - MachineMask
