@@ -733,6 +733,8 @@
   - type: Construction
     graph: DiagonalGirder
     node: diagonalReinforcedWall
+  - type: StaticPrice
+    price: 285
   # SIS-DiagonalGirder End
   - type: RadiationBlocker
     resistance: 5
