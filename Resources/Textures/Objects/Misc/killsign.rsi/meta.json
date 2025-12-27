@@ -114,16 +114,6 @@
         {
             "name": "icon-hidden",
             "directions": 1
-        },
-        {
-            "name": "sign",
-            "directions": 1,
-            "delays": [
-                [
-                    0.1,
-                    0.1
-                ]
-            ]
         }
     ]
 }
