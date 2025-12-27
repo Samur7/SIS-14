@@ -8,8 +8,6 @@
   - type: Tag
     tags:
     - Diagonal
-  - type: Transform
-    anchored: true
   - type: Rotatable
   - type: Fixtures
     fixtures:
@@ -42,8 +40,6 @@
   - type: Tag
     tags:
     - Diagonal
-  - type: Transform
-    anchored: true
   - type: Fixtures
     fixtures:
       fix1:
