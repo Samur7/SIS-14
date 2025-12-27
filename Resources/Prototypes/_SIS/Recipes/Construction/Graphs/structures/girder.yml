@@ -90,6 +90,10 @@
       entity: WallSolidDiagonal
       edges:
         - to: diagonalGirder
+          completed:
+          - !type:SpawnPrototype
+            prototype: SheetSteel1
+            amount: 1
           steps:
             - tool: Welding
               doAfter: 10
@@ -132,6 +136,10 @@
       entity: WallReinforcedDiagonal
       edges:
         - to: diagonalReinforceGirder
+          completed:
+          - !type:SpawnPrototype
+            prototype: SheetPlasteel1
+            amount: 1
           steps:
             - tool: Cutting
               doAfter: 1
